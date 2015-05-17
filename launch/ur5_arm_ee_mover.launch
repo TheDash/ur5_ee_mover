@@ -1,0 +1,7 @@
+<launch>
+   
+    <node name="ur5_ee_mover" pkg="ur5_ee_mover" type="ur5_ee_mover">
+        <param name="arm_prefix" value="ur5_arm_"/> 
+    </node>
+
+</launch>
